@@ -10,6 +10,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 
+showWarningOnDirectExecution = false
+
 st.title("Welcome to the Customer Value and Collection Period Prediction Web App!")
 
 st.subheader('Please fill in your client information down below:')
