@@ -2,15 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.datasets import make_classification
-from sklearn.ensemble import StackingClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.svm import SVC
-from sklearn.naive_bayes import GaussianNB
 
-showWarningOnDirectExecution = false
 
 st.title("Welcome to the Customer Value and Collection Period Prediction Web App!")
 
