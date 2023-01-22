@@ -111,8 +111,8 @@ df = df1_scaled[:1]
 from sklearn.preprocessing import scale
 
 #Load in model
-model_clv = pickle.load(open('RandomForest_CLV.pkl', 'rb'))
-model_cp = pickle.load(open('RandomForest_CP.pkl', 'rb'))
+model_clv = pickle.load(open('NaiveBayes_CLV.pkl', 'rb'))
+model_cp = pickle.load(open('NaiveBayes_CP.pkl', 'rb'))
 
 clv_pred = model_clv.predict(df)
 cp_pred = model_cp.predict(df)
